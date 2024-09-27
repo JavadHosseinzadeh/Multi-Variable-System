@@ -33,5 +33,3 @@ The script `Paperwork.m` presents in detail the multivariable control design for
 - **Singular Value and Sensitivity Analysis**: The script determines the singular values of the system's transfer function and sensitivity functions, by which the robustness to disturbances and system uncertainty are determined.
 - **Hankel Matrix Realization**: Observable and controllable canonical forms are realized by the Hankel matrices that help perform the model order reduction and simplify the system modeling.
 
-## 5. Additional System Analysis and Control Functions
-The following utility functions for the analysis of multi-variable systems, testing of robustness, and the design of controllers are also included in this repository: unbyp4.m: This processes the history of system states in order to prepare the input data for the identification of the system. Order_Reduction.m: Model order reduction is carried out by the application of model reduction techniques such as balanced truncation and residualization that will reduce the order of system models while preserving dominant dynamics.
