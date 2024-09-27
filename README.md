@@ -10,7 +10,7 @@ Model scripts, simulation, and analysis of multivariable systems by state-space 
 ## 2. Fuzzy Logic Control
 This section covers the implementation of FLC and state-space modeling. Underlying fuzzy inference systems control the system at different operating conditions, whereas all simulations are performed by using Simulink models.
 
-- **`fuzzy_data.m`**: Define the state-space matrices \\\( A \\\\), \\\( B \\\\), \\\( C \\\\), and \\\( D \\\\) of the system which will be used by the FLC model for state-space simulations.
+- **`fuzzy_data.m`**: Define the state-space matrices (A), (B), (C), and (D) of the system which will be used by the FLC model for state-space simulations.
 
 - **`StateSpace_fuzzy.fis`**: This is the FIS file in the development and simulation of fuzzy logic controllers through Simulink. It includes the rules and membership functions that shall be involved in the regulation of the system by the fuzzy controller.
 
