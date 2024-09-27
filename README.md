@@ -25,9 +25,9 @@ These functions provide some important functionalities for the analysis and desi
 The script `Paperwork.m` presents in detail the multivariable control design for a reacting system. The script covers methods based on state-space and transferfunction and methods for robust control design.
 
 ### Major components of `Paperwork.m`:
-- • **System Dynamics - State-Space Modeling**: A model of the system is developed in terms of state-space equations, and time-varying behavior is simulated.
-- • **Transfer-Function Derivation**: This script derives the transfer function from state-space matrices and plots system responses.
-- • **Pole-Zero Analysis**: The script performs pole and zero placement analysis in order to modify system dynamics for stability.
+- **System Dynamics - State-Space Modeling**: A model of the system is developed in terms of state-space equations, and time-varying behavior is simulated.
+- **Transfer-Function Derivation**: This script derives the transfer function from state-space matrices and plots system responses.
+- **Pole-Zero Analysis**: The script performs pole and zero placement analysis in order to modify system dynamics for stability.
 - **Controllability and Observability**: To do controllability and observability checks with appropriate state-space matrices and Grammians to see if the system was fully controllable and observable.
 - **Controller Design**: Controller designs were done: diagonal for some subsystems, robust controllers via SVD designed for disturbances rejection.
 - **Singular Value and Sensitivity Analysis**: The script determines the singular values of the system's transfer function and sensitivity functions, by which the robustness to disturbances and system uncertainty are determined.
